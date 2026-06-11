@@ -1,8 +1,10 @@
 #import <Foundation/Foundation.h>
 #import "DogBreed.h"
 
-typedef void (^DogBreedsCompletion)(NSArray<DogBreed *> *breeds, NSError *error);
-typedef void (^DogBreedImageCompletion)(NSString *imageURL, NSError *error);
+NS_ASSUME_NONNULL_BEGIN
+
+typedef void (^DogBreedsCompletion)(NSArray<DogBreed *> * _Nullable breeds, NSError * _Nullable error);
+typedef void (^DogBreedImageCompletion)(NSString * _Nullable imageURL, NSError * _Nullable error);
 
 @interface DogAPIService : NSObject
 
@@ -12,3 +14,5 @@ typedef void (^DogBreedImageCompletion)(NSString *imageURL, NSError *error);
 - (void)fetchRandomImageForBreed:(NSString *)breed completion:(DogBreedImageCompletion)completion;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -1,14 +1,14 @@
 #import "AppDelegate.h"
-#import "DogBreedsListViewController.h"
 #import "FavoritesListViewController.h"
 #import "SettingViewController.h"
+#import "iOS_POC-Swift.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
 
-    DogBreedsListViewController *listVC = [[DogBreedsListViewController alloc] init];
+    UIViewController *listVC = [DogBreedsListSceneFactory makeViewController];
     UINavigationController *dogNavVC = [[UINavigationController alloc] initWithRootViewController:listVC];
     dogNavVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Dog"
                                                         image:[UIImage systemImageNamed:@"pawprint"]

@@ -11,11 +11,15 @@
 		68195E022FD5512000240A90 /* AuthService.m in Sources */ = {isa = PBXBuildFile; fileRef = 68195E012FD5512000240A90 /* AuthService.m */; };
 		68195E052FD5534300240A90 /* FavoritesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 68195E042FD5534300240A90 /* FavoritesService.m */; };
 		68195E082FD5539F00240A90 /* FavoritesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68195E072FD5539F00240A90 /* FavoritesListViewController.m */; };
+		68AC90EC2FDAAC77006CEE5A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 68AC90EB2FDAAC77006CEE5A /* ComposableArchitecture */; };
+		68AC90EF2FDAAE4B006CEE5A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 68AC90EE2FDAAE4B006CEE5A /* ComposableArchitecture */; };
+		68AC90F02FDAAF9E006CEE5A /* DogBreedsListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AC90E72FDAAB94006CEE5A /* DogBreedsListFeature.swift */; };
+		68AC90F12FDAAFA4006CEE5A /* DogBreedsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AC90E82FDAABA1006CEE5A /* DogBreedsListView.swift */; };
+		68AC90F22FDAAFAA006CEE5A /* DogBreedsListSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AC90E92FDAABBA006CEE5A /* DogBreedsListSceneFactory.swift */; };
 		AA000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* main.m */; };
 		AA000002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* AppDelegate.m */; };
 		AA000003 /* DogBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* DogBreed.m */; };
 		AA000004 /* DogAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* DogAPIService.m */; };
-		AA000005 /* DogBreedsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* DogBreedsListViewController.m */; };
 		AA000006 /* DogBreedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB000006 /* DogBreedDetailViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -28,16 +32,18 @@
 		68195E042FD5534300240A90 /* FavoritesService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritesService.m; sourceTree = "<group>"; };
 		68195E062FD5538600240A90 /* FavoritesListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritesListViewController.h; sourceTree = "<group>"; };
 		68195E072FD5539F00240A90 /* FavoritesListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritesListViewController.m; sourceTree = "<group>"; };
+		68AC90E42FDAAB65006CEE5A /* iOS-POC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-POC-Bridging-Header.h"; sourceTree = "<group>"; };
+		68AC90E72FDAAB94006CEE5A /* DogBreedsListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsListFeature.swift; sourceTree = "<group>"; };
+		68AC90E82FDAABA1006CEE5A /* DogBreedsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsListView.swift; sourceTree = "<group>"; };
+		68AC90E92FDAABBA006CEE5A /* DogBreedsListSceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsListSceneFactory.swift; sourceTree = "<group>"; };
 		AB000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB000002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB000003 /* DogBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreed.m; sourceTree = "<group>"; };
 		AB000004 /* DogAPIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogAPIService.m; sourceTree = "<group>"; };
-		AB000005 /* DogBreedsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedsListViewController.m; sourceTree = "<group>"; };
 		AB000006 /* DogBreedDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedDetailViewController.m; sourceTree = "<group>"; };
 		AB000007 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB000008 /* DogBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogBreed.h; sourceTree = "<group>"; };
 		AB000009 /* DogAPIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAPIService.h; sourceTree = "<group>"; };
-		AB000010 /* DogBreedsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogBreedsListViewController.h; sourceTree = "<group>"; };
 		AB000011 /* DogBreedDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogBreedDetailViewController.h; sourceTree = "<group>"; };
 		AB000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB000099 /* iOS-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,17 +54,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68AC90EF2FDAAE4B006CEE5A /* ComposableArchitecture in Frameworks */,
+				68AC90EC2FDAAC77006CEE5A /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68AC90E52FDAAB7F006CEE5A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				68AC90E62FDAAB81006CEE5A /* DogBreedsList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		68AC90E62FDAAB81006CEE5A /* DogBreedsList */ = {
+			isa = PBXGroup;
+			children = (
+				68AC90E72FDAAB94006CEE5A /* DogBreedsListFeature.swift */,
+				68AC90E82FDAABA1006CEE5A /* DogBreedsListView.swift */,
+				68AC90E92FDAABBA006CEE5A /* DogBreedsListSceneFactory.swift */,
+			);
+			path = DogBreedsList;
+			sourceTree = "<group>";
+		};
 		AG000000 = {
 			isa = PBXGroup;
 			children = (
 				AG000001 /* iOS-POC */,
 				AG000099 /* Products */,
+				68AC90E42FDAAB65006CEE5A /* iOS-POC-Bridging-Header.h */,
+				68AC90E52FDAAB7F006CEE5A /* Features */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +129,6 @@
 		AG000004 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AB000010 /* DogBreedsListViewController.h */,
-				AB000005 /* DogBreedsListViewController.m */,
 				AB000011 /* DogBreedDetailViewController.h */,
 				AB000006 /* DogBreedDetailViewController.m */,
 				68195DFD2FD5505600240A90 /* SettingViewController.h */,
@@ -165,6 +191,9 @@
 				Base,
 			);
 			mainGroup = AG000000;
+			packageReferences = (
+				68AC90ED2FDAAE4B006CEE5A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = AG000099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,11 +221,13 @@
 				AA000001 /* main.m in Sources */,
 				AA000002 /* AppDelegate.m in Sources */,
 				AA000003 /* DogBreed.m in Sources */,
+				68AC90F22FDAAFAA006CEE5A /* DogBreedsListSceneFactory.swift in Sources */,
 				68195E052FD5534300240A90 /* FavoritesService.m in Sources */,
 				68195E022FD5512000240A90 /* AuthService.m in Sources */,
 				68195DFF2FD5505900240A90 /* SettingViewController.m in Sources */,
+				68AC90F12FDAAFA4006CEE5A /* DogBreedsListView.swift in Sources */,
+				68AC90F02FDAAF9E006CEE5A /* DogBreedsListFeature.swift in Sources */,
 				AA000004 /* DogAPIService.m in Sources */,
-				AA000005 /* DogBreedsListViewController.m in Sources */,
 				68195E082FD5539F00240A90 /* FavoritesListViewController.m in Sources */,
 				AA000006 /* DogBreedDetailViewController.m in Sources */,
 			);
@@ -336,6 +367,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-POC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-POC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -357,6 +390,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-POC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-POC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -383,6 +418,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68AC90EA2FDAAC77006CEE5A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.0;
+			};
+			traits = (
+			);
+		};
+		68AC90ED2FDAAE4B006CEE5A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.0;
+			};
+			traits = (
+			);
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68AC90EB2FDAAC77006CEE5A /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68AC90EA2FDAAC77006CEE5A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		68AC90EE2FDAAE4B006CEE5A /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68AC90ED2FDAAE4B006CEE5A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AP000001 /* Project object */;
 }
