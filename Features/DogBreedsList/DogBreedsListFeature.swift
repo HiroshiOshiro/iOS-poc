@@ -23,7 +23,7 @@ extension DogBreedsClient: DependencyKey {
                     let items = (breeds ?? []).map { breed in
                         DogBreedItem(
                             name: breed.name,
-                            subBreeds: breed.subBreeds ?? []
+                            subBreeds: breed.subBreeds
                         )
                     }
                     continuation.resume(returning: items)
